@@ -6,13 +6,20 @@ Estructura del Repositorio
 Los cuadernos en este repositorio están organizados como sigue:
 
 1.a cnn_cross_entropy-M.ipynb: CNN con función de pérdida de entropía cruzada, conjunto mediano.
+
 1.a cnn_cross_entropy-S.ipynb: CNN con función de pérdida de entropía cruzada, conjunto pequeño.
 1.b cnn_focal_loss-M.ipynb: CNN con función de pérdida focal, conjunto mediano.
+
 1.b cnn_focal_loss-S.ipynb: CNN con función de pérdida focal, conjunto pequeño.
+
 2.a resnet18.ipynb: Implementación y entrenamiento del modelo ResNet-18.
+
 2.b mobilenet_finetuning.ipynb: Ajuste fino de MobileNet para la clasificación.
+
 3.a ViTModel.ipynb: Implementación y evaluación de un Transformer de Visión (ViT).
+
 4.a BagOfVisualWords.ipynb: Implementación del método Bag of Visual Words.
+
 Dependencias
 Este proyecto requiere Python 3.11.4 y las siguientes librerías de Python, que se pueden instalar con pip:
 
