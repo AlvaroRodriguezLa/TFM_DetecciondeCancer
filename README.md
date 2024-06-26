@@ -8,6 +8,7 @@ Los cuadernos en este repositorio están organizados como sigue:
 1.a cnn_cross_entropy-M.ipynb: CNN con función de pérdida de entropía cruzada, conjunto mediano.
 
 1.a cnn_cross_entropy-S.ipynb: CNN con función de pérdida de entropía cruzada, conjunto pequeño.
+
 1.b cnn_focal_loss-M.ipynb: CNN con función de pérdida focal, conjunto mediano.
 
 1.b cnn_focal_loss-S.ipynb: CNN con función de pérdida focal, conjunto pequeño.
