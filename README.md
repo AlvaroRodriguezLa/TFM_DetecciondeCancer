@@ -22,6 +22,7 @@ Los cuadernos en este repositorio están organizados como sigue:
 4.a BagOfVisualWords.ipynb: Implementación del método Bag of Visual Words.
 
 Dependencias
+
 Este proyecto requiere Python 3.11.4 y las siguientes librerías de Python, que se pueden instalar con pip:
 
 
@@ -29,4 +30,5 @@ pip install numpy==1.24.0 torch==2.2.0 torchvision==0.17.0
 
 
 Contacto
+
 Si tienes alguna pregunta o necesitas más información, no dudes en contactarme.
