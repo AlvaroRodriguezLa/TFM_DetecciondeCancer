@@ -21,6 +21,15 @@ Los cuadernos en este repositorio están organizados como sigue:
 
 4.a BagOfVisualWords.ipynb: Implementación del método Bag of Visual Words.
 
+
+Organización de los Datasets
+
+Este proyecto utiliza dos estructuras principales de datasets para facilitar diferentes enfoques en el entrenamiento y evaluación de modelos:
+
+DatasetPaciente: Este es el dataset original que contiene subcarpetas organizadas por paciente. Cada subcarpeta incluye imágenes histopatológicas correspondientes a un paciente específico, lo que es útil para análisis donde la agrupación por paciente es relevante.
+
+datasetsClases: Para facilitar el entrenamiento de modelos donde es crucial el balance y la distribución uniforme de clases, se ha creado una variante del dataset organizada por clases en lugar de por paciente. Este dataset está subdividido en tres subconjuntos: train, test, y val, cada uno conteniendo imágenes de las clases correspondientes. Este enfoque es especialmente útil para la validación y prueba de modelos de clasificación, asegurando que cada clase esté adecuadamente representada en todas las fases del entrenamiento y evaluación.
+
 Dependencias
 
 Este proyecto requiere Python 3.11.4 y las siguientes librerías de Python, que se pueden instalar con pip:
